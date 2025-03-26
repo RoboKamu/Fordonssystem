@@ -1,0 +1,12 @@
+
+
+ID: 123
+Owner: mail@gmail.com
+Max Passengers: 4
+Number of Wheels: 25
+Purchase Date: Wed Mar 26 23:40:52 CET 2025
+Remaining Warranty (years): 9.0
+Original Price: 12000.0
+Current Price:10800.0
+Trunk volume: 2.0
+type: car
