@@ -1,9 +1,0 @@
-
-ID: 547
-name: john doe
-password: 12345678
-email: mail@gmail.com
-adress: ny12
-postal code: 00000
-telephone number: 0733333333
-

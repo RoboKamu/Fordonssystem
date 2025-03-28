@@ -1108,7 +1108,7 @@ public class Start extends javax.swing.JFrame{
         String userEmail = null;
         String userPassword = null;
         // bekräfta om det är en admin som logar in
-        if (email.equals("-.$ecretAdmin.-")){
+        if (email.equals("-admin")){
             adminFound = true;
         }
         
