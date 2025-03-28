@@ -37,18 +37,12 @@ public class Start extends javax.swing.JFrame{
     Random rand = new Random();
     String basePath = System.getProperty("user.dir");   // hämta projektens path
     // PATH för filen kunder.txt
-    //String KundFilePath = "C:\\Users\\karzan.murad\\Documents\\NetBeansProjects\\SLUTUPPGIFT\\src\\slutuppgift\\Data\\kunder";
     String KundFilePath = basePath + File.separator + "Data" + File.separator + "kunder.txt";
     // PATH för filen fordon.txt
-    //String FordonFilePath = "C:\\Users\\karzan.murad\\Documents\\NetBeansProjects\\SLUTUPPGIFT\\src\\slutuppgift\\Data\\fordon";        
     String FordonFilePath = basePath + File.separator + "Data" + File.separator + "fordon.txt";
     // PATH för filen reparationer.txt
-    //String RepFilePath = "C:\\Users\\karzan.murad\\Documents\\NetBeansProjects\\SLUTUPPGIFT\\src\\slutuppgift\\Data\\reparationer";
     String RepFilePath = basePath + File.separator + "Data" + File.separator + "reparationer.txt";
-    
 
-    // Define the relative data file paths
-    
     // skapa en lista med alla kunder (objekt)
     ArrayList<Kund> customers = new ArrayList<>();
     ArrayList<Fordon> vehicles = new ArrayList<>();
